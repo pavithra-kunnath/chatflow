@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Expo & React Native
+.expo/
+.expo-shared/
+web-build/
+dist/
+build/
+
+# Testing & Coverage
+coverage/
+*.lcov
+
+# Logs & temp files
+*.log
+.DS_Store
+Thumbs.db
+
+# TypeScript build output
+*.tsbuildinfo

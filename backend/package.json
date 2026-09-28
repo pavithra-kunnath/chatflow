@@ -1,0 +1,31 @@
+{
+  "name": "chatflow-backend",
+  "version": "1.0.0",
+  "description": "Backend API & Socket.io server for ChatFlow real-time messaging application",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express",
+    "mongodb",
+    "chatflow"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.9.5",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "socket.io-client": "^4.8.4"
+  }
+}
